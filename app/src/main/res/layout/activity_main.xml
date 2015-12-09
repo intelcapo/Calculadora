@@ -16,9 +16,9 @@
             android:id="@+id/tvInputUser"
             android:layout_width="match_parent"
             android:layout_height="200dp"
+            android:gravity="right"
             android:textColor="#4e76ff"
-            android:textSize="24sp"
-            android:gravity="right"/>
+            android:textSize="34sp" />
 
         <TableRow android:layout_width="match_parent">
 
@@ -29,12 +29,13 @@
                 android:layout_weight="1"
                 android:background="#000000"
                 android:textColor="#FFFFFF"
-                android:textSize="24sp" />
+                android:textSize="28sp" />
 
             <Button
                 android:id="@+id/btnIgual"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="clickBtnOperar"
                 android:text="="
                 android:textSize="20sp" />
         </TableRow>
@@ -46,36 +47,36 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
+                android:onClick="btnClick"
                 android:text="1"
-                android:textSize="20sp"
-                android:onClick="btnClick"/>
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/btn2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
+                android:onClick="btnClick"
                 android:text="2"
-                android:textSize="20sp"
-                android:onClick="btnClick"/>
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/btn3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
+                android:onClick="btnClick"
                 android:text="3"
-                android:textSize="20sp"
-                android:onClick="btnClick"/>
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/btnSumar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
+                android:onClick="clickBtnOperar"
                 android:text="+"
-                android:textSize="20sp"
-                android:onClick="btnClick"/>
+                android:textSize="20sp" />
         </TableRow>
 
         <TableRow android:layout_width="fill_parent">
@@ -85,36 +86,36 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
+                android:onClick="btnClick"
                 android:text="4"
-                android:textSize="20sp"
-                android:onClick="btnClick"/>
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/btn5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
+                android:onClick="btnClick"
                 android:text="5"
-                android:textSize="20sp"
-                android:onClick="btnClick"/>
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/btn6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
+                android:onClick="btnClick"
                 android:text="6"
-                android:textSize="20sp"
-                android:onClick="btnClick"/>
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/btnRestar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
+                android:onClick="clickBtnOperar"
                 android:text="-"
-                android:textSize="20sp"
-                android:onClick="btnClick"/>
+                android:textSize="20sp" />
         </TableRow>
 
         <TableRow android:layout_width="fill_parent">
@@ -124,36 +125,36 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
+                android:onClick="btnClick"
                 android:text="7"
-                android:textSize="20sp"
-                android:onClick="btnClick"/>
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/btn8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
+                android:onClick="btnClick"
                 android:text="8"
-                android:textSize="20sp"
-                android:onClick="btnClick"/>
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/btn9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
+                android:onClick="btnClick"
                 android:text="9"
-                android:textSize="20sp"
-                android:onClick="btnClick"/>
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/btnMultiplicar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
+                android:onClick="clickBtnOperar"
                 android:text="*"
-                android:textSize="20sp"
-                android:onClick="btnClick"/>
+                android:textSize="20sp" />
         </TableRow>
 
         <TableRow android:layout_width="fill_parent">
@@ -163,36 +164,36 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
+                android:onClick="btnClick"
                 android:text="0"
-                android:textSize="20sp"
-                android:onClick="btnClick"/>
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/btnPunto"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
+                android:onClick="btnClick"
                 android:text="."
-                android:textSize="20sp"
-                android:onClick="btnClick"/>
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/btnLimpiar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
+                android:onClick="btnLimpiar"
                 android:text="C"
-                android:textSize="20sp"
-                android:onClick="btnLimpiar"/>
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/btnDividir"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
+                android:onClick="clickBtnOperar"
                 android:text="/"
-                android:textSize="20sp"
-                android:onClick="btnClick"/>
+                android:textSize="20sp" />
         </TableRow>
 
     </TableLayout>
